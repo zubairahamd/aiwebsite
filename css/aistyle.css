@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+}
+
+.nav-item {
+    display: flex;
+    color: aqua;
+    gap: 30px;
+    padding-top: 6px;
+    justify-items: center;
+    padding-right: 50px;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: bolder;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: azure;
+}
+
+.imag img {
+    padding-left: 50px;
+    height: 40px;
+    width: 200px;
+}
+
+.bga {
+    background-color: blue;
+    height: 290px;
+}
+
+.about {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Empower {
+    /* row-gap: 50px; */
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.bgs {
+    /* border: 2px solid black; */
+    /* margin: 50px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    height: 290px;
+}
+
+.story {
+    color: rgb(50, 50, 165);
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.founded {
+    color: rgb(58, 54, 54);
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.white {
+    /* border: 2px solid black; */
+    /* background-color: white; */
+    height: 400px;
+    display: flex;
+}
+
+.mission {
+    /* border: 2px solid black; */
+    width: 550px;
+
+    height: 280px;
+    margin-left: 30px;
+    padding-left: 45px;
+    padding-top: 20px;
+    border-radius: 5%;
+    padding-right: 40px;
+    box-shadow: 3PX 10PX 15PX -3PX darkgrey;
+    /* padding-left: 20px; */
+}
+
+.mission i {
+    background-color: blue;
+    border-radius: 10px;
+    height: 45px;
+    width: 10%;
+    text-align: center;
+    /* padding-left: 18px; */
+}
+
+.mission h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+    font-style: bold;
+}
+
+.mission p {
+    padding-top: 9px;
+    margin-right: 20px;
+}
+
+.icon {
+    /* border: 2px solid black; */
+    height: 60px;
+    width: 60px;
+}
+
+.icn {
+    background-color: blue;
+    border-radius: 15%;
+    width: 50px;
+}
+
+
+
+
+.cart4 {
+    /* border: 2px solid black; */
+    /* background-color: white; */
+    height: 290px;
+    display: flex;
+}
+
+.expreience {
+    /* border: 2px solid black; */
+    width: 240px;
+    height: 180px;
+    margin-left: 30px;
+    padding-left: 45px;
+    padding-top: 20px;
+    /* gap: 50px; */
+    border-radius: 5%;
+    padding-right: 17px;
+    box-shadow: 3PX 10PX 15PX -3PX darkgrey;
+}
+
+.expreience i {
+    background-color: rgb(222, 222, 230);
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(211, 50, 50);
+    padding-left: 15px;
+    padding-top: 15px;
+    /* margin: 0px; */
+    font-size: 30px;
+}
+
+.expreience h2 {
+    color: red;
+    padding-top: 15px;
+    padding-left: 15 px;
+    font-size: 35px;
+
+}
+
+.expreience p {
+    color: rgb(51, 50, 50);
+    padding-top: 15px;
+    font-size: 20px;
+
+}
+
+.values {
+    color: blue;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+.join {
+    height: 340px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.join h1 {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+}
+
+.join p {
+    color: white;
+    padding-top: 25px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.join button {
+    border-style: none;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    color: blue;
+}
+
+.foot1 {
+    /* border: 2px solid black; */
+    background-color: rgb(47, 47, 199);
+
+    justify-content: center;
+    height: 400px;
+}
+
+.foot2 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 285px;
+
+    /* background-color: rgb(47, 47, 199); */
+    /* border: 2px solid black; */
+
+}
+
+.box1 {
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 10px;
+    /* padding-left: 10px; */
+    height: 245px;
+    width: 300px;
+    /* border: 2px solid black; */
+}
+
+.box1 p {
+    padding-top: 20px;
+    color: rgb(235, 222, 222);
+    font-size: 20px;
+}
+
+.smedia {
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 200px;
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+    /* padding-left: 30px; */
+    /* margin-top: 30px; */
+}
+
+.in {
+    font-size: 25px;
+    color: rgb(235, 222, 222);
+    padding-top: 10px;
+}
+
+.insta {
+    font-size: 25px;
+    color: rgb(235, 222, 222);
+    padding-top: 10px;
+}
+
+.fb {
+    font-size: 25px;
+    color: rgb(235, 222, 222);
+    padding-top: 10px;
+}
+
+.wa {
+    font-size: 25px;
+    color: rgb(235, 222, 222);
+    padding-top: 10px;
+}
+
+.yt {
+    font-size: 25px;
+    color: rgb(235, 222, 222);
+    padding-top: 10px;
+}
+
+.box2 {
+    margin: 40px;
+    height: 245px;
+    width: 140px;
+    /* border: 2px solid black; */
+}
+
+.box2 h2 {
+    color: skyblue;
+
+}
+
+.links {
+    list-style: none;
+    color: rgb(235, 222, 222);
+    font-size: 20px;
+    padding-top: 25px;
+    gap: 15px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: bolder;
+}
+
+.box3 {
+    margin: 40px;
+    height: 245px;
+    width: 300px;
+    /* border: 2px solid black; */
+}
+
+.box3 h2 {
+    color: skyblue;
+
+}
+
+.services {
+    list-style: none;
+    color: silver;
+    font-size: 20px;
+    padding-top: 25px;
+    gap: 15px;
+    /* font-family: 'Arial Narrow Bold'; */
+    font-weight: bolder;
+}
+
+.box4 {
+    margin: 40px;
+    height: 245px;
+    width: 271px;
+    /* border: 2px solid black; */
+}
+
+.box4 h2 {
+    color: skyblue;
+}
+
+.map {
+    font-size: 30px;
+    color: silver;
+    padding-top: 20px;
+    display: flex;
+}
+
+.add {
+    padding-left: 20px;
+    color: silver;
+    font-size: 20px;
+}
+
+.call {
+    font-size: 30px;
+    color: silver;
+    padding-top: 20px;
+    display: flex;
+}
+
+.no {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.mail {
+    font-size: 30px;
+    color: silver;
+    padding-top: 20px;
+    display: flex;
+}
+
+.info {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.xyz {
+    text-align: center;
+    padding-top: 30px;
+    color: silver;
+    font-size: 20px;
+}
+
+.link-item {
+    padding: 5px;
+    
+}
+
+.services-item {
+    padding: 5px;
+}
